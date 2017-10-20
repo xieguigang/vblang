@@ -2,7 +2,7 @@ Visual Basic Language Specification
 =====================================
 __Version 11__
 
-(This document is also available for download: [vb.pdf](Visual%20Basic%20Language%20Specification.pdf?raw=true) and [vb.docx](Visual%20Basic%20Language%20Specification.docx?raw=true))
+(This document is also available for download: [vb.pdf](http://ljw1004.github.io/vbspec/Visual%20Basic%20Language%20Specification.pdf?raw=true) and [vb.docx](http://ljw1004.github.io/vbspec/Visual%20Basic%20Language%20Specification.docx?raw=true))
 
 * [Introduction](introduction.md#introduction)
     * [Grammar Notation](introduction.md#grammar-notation)
@@ -99,6 +99,13 @@ __Version 11__
     * [Member Access Expressions](expressions.md#member-access-expressions)
     * [Dictionary Member Access Expressions](expressions.md#dictionary-member-access-expressions)
     * [Invocation Expressions](expressions.md#invocation-expressions)
+    * [Overload Resolution](overload-resolution.md)
+      * [Specificity of members/types given an argument list](overload-resolution.md#specificity-of-memberstypes-given-an-argument-list)
+      * [Genericity](overload-resolution.md#genericity)
+      * [Applicability to Argument List](overload-resolution.md#applicability-to-argument-list)
+      * [Passing Arguments, and Picking Arguments for Optional Parameters](overload-resolution.md#passing-arguments-and-picking-arguments-for-optional-parameters)
+      * [Conditional Methods](overload-resolution.md#conditional-methods)
+      * [Type Argument Inference](overload-resolution.md#type-argument-inference)
     * [Index Expressions](expressions.md#index-expressions)
     * [New Expressions](expressions.md#new-expressions)
     * [Cast Expressions](expressions.md#cast-expressions)
@@ -121,7 +128,7 @@ __Version 11__
     * [Recommended tags](documentation-comments.md#recommended-tags)
     * [ID Strings](documentation-comments.md#id-strings)
     * [Documentation comments example](documentation-comments.md#documentation-comments-example)
-* Grammar: [vb.html](http://ljw1004.github.io/vbspec/vb.html). Or download in ANTLR format: [vb.g4](vb.g4?raw=true).
+* Grammar: [vb.html](http://ljw1004.github.io/vbspec/vb.html). Or download in ANTLR format: [vb.g4](http://ljw1004.github.io/vbspec/vb.g4?raw=true).
 
 
 *Copyright (c) Microsoft. All Rights Reserved. Licensed under the Apache License, Version 2.0.  See [License.txt](https://github.com/dotnet/roslyn/blob/master/License.txt) for license information.*
